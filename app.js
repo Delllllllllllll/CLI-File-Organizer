@@ -95,7 +95,7 @@ function sortFiles(files) {
     
     const newDir = path.resolve(resolvedPath, dir); // C:/testFile/Code
     const destination = path.resolve(newDir, file); // C:/testFile/Code/example.html
-    moveFile(initalPath, newDir);
+    moveFile(initalPath, destination);
   });
 }
 
